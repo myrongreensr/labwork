@@ -1,23 +1,56 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
-<title>Lab 3</title>
+<title>Myron Green Table Practice</title>
 <meta charset="utf-8">
+<style>
+table { margin: auto;
+        border: 5px solid #000066;
+        width: 600px; 
+		border-spacing: 0;
+}
+td, th { padding: 0.5em;
+		 border-style: none;
+         font-family: Arial, sans-serif; 
+}
+caption { font-family: Verdana, sans-serif;
+          font-weight: bold;
+          font-size: 1.2em;
+          padding-bottom: 0.5em; 
+}
+tr:nth-of-type(even) { background-color: #eaeaea; }
+tr:first-of-type { background-color: #006;
+				   color: #eaeaea; }
+</style>
 </head>
-<body style="background-color:#F5F5F5;color:#008080;">
-<h1 style="background-color:#008080;color:#F5F5F5;">Myron Green Sr </h1>
-<p>In today's world, data analytics is crucial for measuring success. <br> It takes the knowledge and expertise of a skilled data analytics professional to <br> effectively analyze important data. 
-	My goal is to be that go to person when it comes to skills in technology and <br> analyzing data and using  the information supplied to gain the knowledge and skills you need to succeed in this growing field. </h1>
-	 
-	<p> <i> Knowing and understanding the structure is the biggest advantage one can have regarding Website Design. </i></p>
-    <p style=color:blue; Learning to create HTML tags can help in many ways. </p>
-	
+<body>
+ <table border="1">  
+ <caption>Dallas Baptist University Student Information</caption>
+   <tr>
+     <th>Student Id:</th>
+	 <th>City</th>
+     <th>State</th>
+     <th>Age</th>
+  </tr>
+  <tr>
+     <td>97064875</td>
+     <td>Dallas </td>
+	 <td>Texas</td>
+   <td>35</td>
+  </tr>
+  <tr>
+     <td>7528798</td>
+     <td>Kansas City</td>
+	 <td>KS</td>
+   <td>25</td>
+   </tr>
+    <tr>
+     <td>75863258</td>
+     <td>Washington</td>
+	 <td>DC</td>
+   <td>19</td>
+  </tr>
+</table>
 
-<h2 style="color:red;"> Computer Information and Technolgy Website are a must in today's fast moving enviormnent.	
- Testing for new information listed in new paragraph to get use to structure </h2>
- 
-<h3 style="background-color:yellow;"> CSS Class example of color and font size </h3>
-
-<p> <small>Copyright &copy; 2021 Testing Myron Green. All Rights Reserved.</small> </p> 
-
-</html> 
+</body>
+</html>
